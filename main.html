@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Muli - Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Joshua Muli</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Joshua Muli</span>.</h1>
+                <h2>Am<span class="typewriter" data-words='["Web Developer", "Software Engineer", "Python Enthusiast", "Problem Solver"]'></span></h2>
+                <p>Passionate about crafting elegant and efficient solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/mickey.jpg" alt="Joshua's Profile Picture">
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! I'm Josh, a developer based in Nairobi. My journey into tech started with a school project. I have a strong foundation in problem-solving and love the challenge of turning a complex idea into a simple, elegant solution.</p>
+                        <p>I am proficient in front-end technologies like <strong>HTML, CSS, and JavaScript</strong>, and I use <strong>Python</strong> for backend development, scripting, and data-related tasks. I'm always eager to learn new technologies and improve my skills.</p>
+                        <p>When I'm not coding, you can find me swimmingo or bike riding.</p>
+                    </div>
+                    <div class="about-facts">
+                        <h3>Quick Facts</h3>
+                        <ul>
+                            <li><strong>Name:</strong> Joshua Muli</li>
+                            <li><strong>Location:</strong> Nairobi, Kenya</li>
+                            <li><strong>Email:</strong> mulijoshua681@gmail.com</li>
+                            <li><strong>Interests:</strong>Web development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-desktop"></i> Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3 (Flexbox, Grid, SASS)</li>
+                            <li>JavaScript (React)</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Backend & Scripting</h3>
+                        <ul>
+                            <li>Python (Django, Flask)</li>
+                            <li>RESTful APIs</li>
+                            <li>Database (MySQL)</li>
+                            <li>Node.js (Basic)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>CI/CD (Basic)</li>
+                            <li>Agile Methodologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="images/movie.png" alt="Project 1 Thumbnail">
+                        <h3>React-Movie-App</h3>
+                        <p>This project is built using React with JavaScript to handle the application logic, while HTML is used to structure the content and CSS is used to style the user interface. Together, these technologies create an interactive movie app where users can search for movies and save their favorites.</p>
+                        <div class="project-links">
+                            <a href="https://react-movie-app-eosin-five.vercel.app/" target="_blank" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/SmaddyJosh/react-movie-app" target="_blank" class="btn small-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/weather.png" alt="Project 2 Thumbnail">
+                        <h3>Weather App</h3>
+                        <p>A react weather app that enables one to view and search the weather conditions in any part of the world</p>
+                        <div class="project-links">
+                            <a href="https://weather-app-lake-five-37.vercel.app/" target="_blank" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/SmaddyJosh/weather-app" target="_blank" class="btn small-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250/333333/cccccc?text=Project+3+Image" alt="Project 3 Thumbnail">
+                        <h3>Project Name 3</h3>
+                        <p>A brief description </p>
+                        <div class="project-links">
+                            <a href="" target="_blank" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn small-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mulijoshua681@gmail.com">mulijoshua681@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/joshua-muli-7715572b5/?trk=opento_sprofile_details" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/SmaddyJosh" target="_blank">GitHub Profile</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Joshua Muli. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/joshua-muli-7715572b5/?trk=opento_sprofile_details" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SmaddyJosh" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
